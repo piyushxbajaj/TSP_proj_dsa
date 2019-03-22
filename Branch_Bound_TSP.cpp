@@ -1,10 +1,12 @@
 #include <iostream>
 #include <cstdlib>
 using namespace std;
-
+//Created by Piyush, Vandit and Abhishek
+//Including all the header files
 int queue[100], stack[100], alt[100], v[100];
 int sp,head,tail,i,n,g,j,s,path,weight,weight_matrix[4][4];
-
+//Declaring all the variables which we will use in the code
+//Solving through backtrack problem.
 int main()
 {
   cout<<"Number of cities:";
